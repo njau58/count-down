@@ -6,12 +6,14 @@
 
 body {
     font-family: "Lato" , sans-serif;
+    margin-left: auto;
 }
 
 h2 {
 
     font-size: 5rem;
     font-weight: bold;
+    margin-bottom: 3rem;
 
 }
 
@@ -22,6 +24,7 @@ h2 {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    padding: 0 20px;
 }
 
 .countdown {
@@ -43,13 +46,14 @@ h2 {
 }
 
 .container-day, .container-hour, .container-minute, .container-second{
-    margin-right: 2rem;
+    margin: 10px;
 }
 
 
 .waiting {
 
-    min-width: 10vh;
+    min-width: 70vw;
+    min-height: 5vh;
 }
 
 @media screen and (max-width: 800px) {
@@ -60,5 +64,15 @@ h2 {
   
     
   }
+
+  @media screen and (max-width:1024px){
+    img.waiting {width: 700px;}
+  }
+  
+  @media screen and (min-width:100px){
+    img.waiting{width: 300px;}
+  }
+  
+ 
 
   

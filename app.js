@@ -1,6 +1,6 @@
 const countdown = () =>{
 
-    const countDate = new Date("June 5, 2021 00:00:00").getTime()
+    const countDate = new Date("May 28, 2030 00:00:00").getTime()
     const now = new Date().getTime()
     const gap = countDate -now
   
