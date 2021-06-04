@@ -65,6 +65,13 @@ h2 {
         width: 80vw;
         text-align: center;
     }
+    .content {
+    
+        overflow-x:hidden;
+        width:100%;
+        align-items: center;
+      
+  }
     .day, 
 .hour,
 .minute,
@@ -83,13 +90,7 @@ h2 {
 }
     
   }
-  .content {
-    
-        overflow-x:hidden;
-        width:100%;
-        align-items: center;
-      
-  }
+ 
 
 
 
