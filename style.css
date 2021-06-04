@@ -78,6 +78,13 @@ h2 {
 }
     
   }
-  
+  .content {
+    
+        overflow-x:hidden;
+        width:100%;
+      
+  }
+
+
 
   
