@@ -65,6 +65,7 @@ h2 {
         text-align: center;
     }
     body {   max-width: 40%;
+        position: fixed;
     
     justify-content: center;}
     
