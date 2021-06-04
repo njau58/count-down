@@ -8,8 +8,7 @@
    
     body {
         font-family: "Lato" , sans-serif;
-        display:flex; flex-direction:column; justify-content:center;
-        min-height:100vh;
+     
       }
 
 
@@ -65,13 +64,10 @@ h2 {
         width: 80vw;
         text-align: center;
     }
-    .content {
+    body {   max-width: 80%;
+        overflow-x: hidden;
+    justify-content: center;}
     
-     
-        width:50%;
-     
-      
-  }
     .day, 
 .hour,
 .minute,
