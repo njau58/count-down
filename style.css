@@ -4,11 +4,8 @@
     box-sizing: border-box;
 }
 
-body, html {
+body {
     font-family: "Lato" , sans-serif;
-        max-width: 100%;
-        overflow-x: hidden;
-    
 }
 
 h2 {
@@ -26,7 +23,6 @@ h2 {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding: 0 20px;
 }
 
 .countdown {
@@ -48,33 +44,40 @@ h2 {
 }
 
 .container-day, .container-hour, .container-minute, .container-second{
-    margin: 10px;
+    margin-right: 2rem;
 }
 
 
-.waiting {
 
-    min-width: 70vw;
-    min-height: 5vh;
-}
 
 @media screen and (max-width: 800px) {
     h2 {
       font-size: 40px;
       font-weight: 100rem;
     }
+    .waiting {
+
+        width: 80vw;
+        text-align: center;
+    }
+    .day, 
+.hour,
+.minute,
+.second{
+
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
   
+
+}
+.coming-soon{
+    overflow-x: hidden;
+    text-align: center;
+    margin: 0 auto;
+}
     
   }
-
-  @media screen and (max-width:1024px){
-    img.waiting {width: 700px;}
-  }
   
-  @media screen and (min-width:100px){
-    img.waiting{width: 300px;}
-  }
-  
- 
 
   
